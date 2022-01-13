@@ -20,18 +20,18 @@ footer { border-top: 1px solid #d5d5d5; font-size: .8em; }
 ul.posts { margin: 20px auto 40px; font-size: 1.5em; }
 ul.posts li { list-style: none; }
 
-.main-container {
+.all-projects{
     width:500px;
 }
 
-.main-image {
+.images-main {
     float:left;
     width:200px;
     height:200px;
     border-radius: 50%;
 }
 
-.main-text {
+.contents {
     float:right;
     width:300px;
     height:200px;
