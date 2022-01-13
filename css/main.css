@@ -20,12 +20,13 @@ footer { border-top: 1px solid #d5d5d5; font-size: .8em; }
 ul.posts { margin: 20px auto 40px; font-size: 1.5em; }
 ul.posts li { list-style: none; }
 
-.self-image {
+.img-fluid {
     margin-left: 180px;
     overflow: hidden;
     text-align: left;
+    border-radius: 50%;
   }
-  .self-image p {
+  .img-fluid p {
     text-align: right;
   }
 
