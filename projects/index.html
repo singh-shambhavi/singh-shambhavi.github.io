@@ -18,19 +18,10 @@ title: Projects
 
 
 <h1>{{ page.title }}</h1>
-<ul class="posts">
 
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-  {% endfor %}
-    
-</ul>
-
-
-<div class="all-projects" id="all-projects">
   <div class="user-projects" id="project">
     
-      <img class="project-img" src="/assets/image3.png" width="240" height="240" href="https://github.com/28shambhavi/arm_mpc"/> 
+      <img class="project-img" src="/assets/image3.png" width="240" height="240"/> 
  
     <p class="project-text">
       <h4> Control of dynamic model of two link arm using MPC</h4>
@@ -38,7 +29,7 @@ title: Projects
         be implemented. Control algorithm and dynamic simulated in MATLAB. Visualised in Rviz using ROS and Python
         </p>
         
-      <a class="project-link" href="https://github.com/28shambhavi/arm_mpc">Github link</a>
+      <a class="project-link" href="https://github.com/28shambhavi/arm_mpc">Read more</a>
       </p>
     </div>  
     <div class="user-projects" id="project">
@@ -50,8 +41,9 @@ title: Projects
       
       <p>Simulation of custom decentralised ad-hoc TCP network of drones using Network Simulator3. Developing an interface with ROS for real world simulations. Developed for deployment in disaster management and recovery. 
         </p>
-      <a class="project-link" href="https://github.com/28shambhavi/arm_mpc">Github link</a>
+      <a class="project-link" href="https://github.com/28shambhavi/arm_mpc">Read more</a>
       </p>
+      <p><h4>"---"</h4></p>
   </div>
     <div class="user-projects" id="project">
     
@@ -63,7 +55,7 @@ title: Projects
       <p>Kratos - Mars Rover Project. Controlling a two link arm with inverse kinematics algorithm using Python and ROS. End
         effector control implemented separately. Circuit design and implementation of connecting the actuators, drivers and controller board
          </p>
-      <a class="project-link" href="https://github.com/28shambhavi/arm_mpc">Github link</a>
+      <a class="project-link" href="https://github.com/28shambhavi/arm_mpc">Read more</a>
     </p>
   </div>
   <div class="user-projects" id="project">
@@ -76,7 +68,7 @@ title: Projects
       <p>Mechanical design of autonomous self assembling modular robots and development of an inter-locking mechanism for the system on Solidworks.
   
         </p>
-      <a class="project-link" href="https://github.com/28shambhavi/arm_mpc">Github link</a>
+      <a class="project-link" href="https://github.com/28shambhavi/arm_mpc">Read more</a>
     </p>
   </div>
   <div class="user-projects" id="project">
@@ -90,7 +82,7 @@ title: Projects
         Simulation of PSO algorithms for homogenous swarms and their hybrids that are suitable for heterogeneous swarms
         
         </p>
-      <a class="project-link" href="https://github.com/28shambhavi/arm_mpc">Github link</a>
+      <a class="project-link" href="https://github.com/28shambhavi/arm_mpc">Read more</a>
     </p>
   </div>
 
@@ -100,7 +92,7 @@ title: Projects
       <h4> Simulation of Networked Euler-Lagrange Robotic Systems
       </h4>
       <p>Study of Networked Euler-Lagrange Robotic Systems manipulars with varying degrees of freedom. This is an ongoing project.  </p>
-      <a class="project-link" href="https://github.com/28shambhavi/arm_mpc">Github link</a>
+      <a class="project-link" href="https://github.com/28shambhavi/arm_mpc">Read more</a>
     </p>
   </div>
 
@@ -111,11 +103,19 @@ title: Projects
       <p>Model Predictive Control and Linear Quadratic Optimal Control of a two-link robot arm to
         be implemented. Control algorithm and dynamic simulated in MATLAB. Visualised in Rviz using ROS and Python
         </p>
-      <a class="project-link" href="https://github.com/28shambhavi/arm_mpc">Github link</a>
+      <a class="project-link" href="https://github.com/28shambhavi/arm_mpc">Read more</a>
     </p>
   </div>
 
-  </div>  
 
+  <ul class="posts">
+
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+    {% endfor %}
+      
+  </ul>
+
+  
 </body>
 </html>
