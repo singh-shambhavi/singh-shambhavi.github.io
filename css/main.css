@@ -28,10 +28,11 @@ ul.posts li { list-style: none; }
     float:left;
     width:200px;
     height:200px;
+    border-radius: 50%;
 }
 
 .main-text {
-    float:left;
+    float:right;
     width:300px;
     height:200px;
 }
