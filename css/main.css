@@ -40,6 +40,11 @@ ul.posts li { list-style: none; }
     padding: 20px;
 }
 
+
+.project-text{
+    float:right;
+    padding: 20px;
+}
 /* CV */
 .cv { margin: 0px 0px 60px; }
 .cv h1 { font-size: 3em; }
