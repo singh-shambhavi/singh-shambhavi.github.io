@@ -38,6 +38,12 @@ footer { border-top: 1px solid #4a6c94; font-size: .8em; }
 
 }
 
+.contact-img {
+    border-radius: 5%;
+    padding: 50px;
+
+}
+
 .main-text{
     float:right;
     padding: 20px;
