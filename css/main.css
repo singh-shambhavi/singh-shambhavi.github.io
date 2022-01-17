@@ -45,7 +45,7 @@ footer { border-top: 1px solid #4a6c94; font-size: .8em; }
 
 
 .project-text{
-    padding: 5px;
+    padding: 0px, 5px, 0px, 20px;
 }
 
 .user-projects{
