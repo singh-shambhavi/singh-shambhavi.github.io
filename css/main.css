@@ -28,7 +28,7 @@ footer { border-top: 1px solid #4a6c94; font-size: .8em; }
 .main-image {
     float:left;
     border-radius: 50%;
-    padding: 60px;
+    padding: 50px;
 }
 
 .project-img {
@@ -50,7 +50,7 @@ footer { border-top: 1px solid #4a6c94; font-size: .8em; }
 }
 
 .list-main-page{
-    float: right;
+    margin-left: 20px;
 }
 
 
